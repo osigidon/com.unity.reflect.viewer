@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a65ca9bbaf9b6a94293c74a87cd16fd9, type: 3}
+  m_Name: Mill Street Bridge ORBIT
+  m_EditorClassIdentifier: 
+  positions:
+  - {x: 542.9, y: 221.81, z: -1846}
+  - {x: 534.8615, y: 221.81, z: -1816}
+  - {x: 512.89996, y: 221.81, z: -1794.0385}
+  - {x: 482.9, y: 221.81, z: -1786}
+  - {x: 452.9, y: 221.81, z: -1794.0385}
+  - {x: 430.93848, y: 221.81, z: -1816}
+  - {x: 422.9, y: 221.81, z: -1846}
+  - {x: 430.93848, y: 221.81, z: -1876}
+  - {x: 452.9, y: 221.81, z: -1897.9615}
+  - {x: 482.9, y: 221.81, z: -1906}
+  - {x: 512.89996, y: 221.81, z: -1897.9615}
+  - {x: 534.8615, y: 221.81, z: -1876}
+  - {x: 542.9, y: 221.81, z: -1846}
+  rotations:
+  - {x: 0.27059796, y: -0.6532815, z: 0.27059796, w: 0.6532815}
+  - {x: -0.19134174, y: 0.8001031, z: -0.3314136, w: -0.46193975}
+  - {x: -0.099045634, y: 0.8923992, z: -0.36964384, w: -0.23911732}
+  - {x: 0, y: 0.92387956, z: -0.38268343, w: 0}
+  - {x: 0.099045716, y: 0.8923992, z: -0.36964378, w: 0.23911756}
+  - {x: 0.19134174, y: 0.8001031, z: -0.3314136, w: 0.46193975}
+  - {x: 0.27059805, y: 0.6532815, z: -0.27059805, w: 0.6532815}
+  - {x: 0.3314136, y: 0.46193975, z: -0.19134174, w: 0.8001032}
+  - {x: 0.36964375, y: 0.23911755, z: -0.09904571, w: 0.89239913}
+  - {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  - {x: 0.36964384, y: -0.23911732, z: 0.099045634, w: 0.8923992}
+  - {x: 0.3314136, y: -0.46193975, z: 0.19134174, w: 0.8001032}
+  - {x: 0.27059796, y: -0.6532815, z: 0.27059796, w: 0.6532815}
+  linkDatas:
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  showPathway: 0
+  objName: 
+  color: {r: 0, g: 1, b: 0, a: 1}
+  sequence: {fileID: 0}
