@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,11 +9,6 @@ namespace CivilFX.Generic2
     {
         Proposed,
         Existing,
-        ExistingNotMOT,
-        ExistingMOT1A,
-        ExistingMOT1B,
-        ProposedFullRSB,
-        ProposedSBX
     }
 
     public enum PhaseMode
