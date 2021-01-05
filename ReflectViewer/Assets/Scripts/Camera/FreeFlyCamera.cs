@@ -376,5 +376,13 @@ namespace UnityEngine.Reflect
             m_DesiredPosition = m_Camera.transform.position;
             m_DesiredLookAt = m_DesiredPosition + lookAtOffset;
         }
+
+        public void ResetCamera()
+        {       
+            m_DesiredPosition = m_Camera.transform.position;
+            m_DesiredRotation = m_Camera.transform.rotation;
+            m_DesiredRotationEuler = m_DesiredRotation.eulerAngles;
+            m_DesiredLookAt = m_DesiredPosition;
+        }
     }
 }

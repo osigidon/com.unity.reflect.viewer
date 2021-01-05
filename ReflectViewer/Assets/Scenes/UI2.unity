@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.17958954, g: 0.22486949, b: 0.30644777, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10525,7 +10525,7 @@ MonoBehaviour:
   mainButton: {fileID: 997485782}
   openImage: {fileID: 21300000, guid: 0d2260e4965c39748aadf241f102e917, type: 3}
   closeImage: {fileID: 21300000, guid: d5d09151f2eff0e47a9e174897507b7a, type: 3}
-  defaultState: 1
+  defaultState: 0
   titleText: {fileID: 453267461}
   navButton: {fileID: 1581202870}
   navPanel: {fileID: 408715702}
