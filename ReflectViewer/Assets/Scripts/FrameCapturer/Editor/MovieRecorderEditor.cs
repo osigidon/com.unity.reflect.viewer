@@ -1,9 +1,12 @@
 using System;
+#if (UNITY_EDITOR)
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace UTJ.FrameCapturer
 {
+    #if (UNITY_EDITOR)
     [CustomEditor(typeof(MovieRecorder))]
     public class MovieRecorderEditor : RecorderBaseEditor
     {
@@ -76,4 +79,5 @@ namespace UTJ.FrameCapturer
             so.ApplyModifiedProperties();
         }
     }
+    #endif
 }

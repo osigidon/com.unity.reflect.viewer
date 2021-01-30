@@ -1,9 +1,12 @@
 using System;
+#if (UNITY_EDITOR)
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace UTJ.FrameCapturer
 {
+    #if (UNITY_EDITOR)
     [CustomEditor(typeof(GBufferRecorder))]
     public class ImageSequenceRecorderEditor : RecorderBaseEditor
     {
@@ -67,4 +70,5 @@ namespace UTJ.FrameCapturer
         }
 
     }
+    #endif
 }

@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
+#if (UNITY_EDITOR)
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace CivilFX.TrafficV5
 {
+    #if (UNITY_EDITOR)
     [CustomEditor(typeof(VehicleController))]
     public class VehicleControllerEditor : Editor
     {
@@ -214,4 +217,5 @@ namespace CivilFX.TrafficV5
         }
 
     }
+    #endif
 }

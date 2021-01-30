@@ -1,10 +1,13 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if (UNITY_EDITOR)
 using UnityEditor;
+#endif
 
 namespace CivilFX.TrafficV5
 {
+    #if (UNITY_EDITOR)
     [CustomEditor(typeof(DistanceTool))]
     public class DistanceToolEditor : Editor
     {
@@ -79,7 +82,5 @@ namespace CivilFX.TrafficV5
         }
 
     }
-
-
-
+    #endif
 }

@@ -1,8 +1,11 @@
+#if (UNITY_EDITOR)
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace UTJ.FrameCapturer
 {
+    #if (UNITY_EDITOR)
     public class RecorderBaseEditor : Editor
     {
         public virtual void CommonConfig()
@@ -118,4 +121,6 @@ namespace UTJ.FrameCapturer
             EditorGUI.indentLevel--;
         }
     }
+    #endif
+
 }

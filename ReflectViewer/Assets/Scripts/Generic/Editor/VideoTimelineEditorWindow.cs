@@ -1,10 +1,13 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+#if (UNITY_EDITOR)
 using UnityEditor;
+#endif
 using UnityEngine;
 
+#if (UNITY_EDITOR)
 public class VideoTimelineEditorWindow : EditorWindow
 {
     [MenuItem("Window/Video Timeline")]
@@ -95,3 +98,5 @@ public class VideoTimelineEditorWindow : EditorWindow
         return result;
     }
 }
+#endif
+

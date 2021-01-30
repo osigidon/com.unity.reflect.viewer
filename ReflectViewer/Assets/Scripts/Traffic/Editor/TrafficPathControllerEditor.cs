@@ -1,11 +1,14 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if (UNITY_EDITOR)
 using UnityEditor;
+#endif
 using System.Text;
 
 namespace CivilFX.TrafficV5
 {
+    #if (UNITY_EDITOR)
     [CustomEditor(typeof(TrafficPathController))]
     [CanEditMultipleObjects]
     public class TrafficPathControllerEditor : Editor
@@ -871,4 +874,5 @@ namespace CivilFX.TrafficV5
             return new GUIContent(sb.ToString());
         }
     }
+    #endif
 }

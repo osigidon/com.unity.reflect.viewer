@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/ReflectVR.unity
     guid: 718b46326659da9428d6f9ebaf542893
   - enabled: 1
-    path: Assets/Scenes/Lighting.unity
-    guid: 66f75e497260d4646b9c023540d6143a
-  - enabled: 1
     path: Assets/Scenes/UI2.unity
     guid: 1a3e0b4eabebf884daeb2f5cbddbff52
   - enabled: 1

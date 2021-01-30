@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
+#if (UNITY_EDITOR)
 using UnityEditor;
+#endif
 using UnityEngine;
 
 static class HotKeysExt
 {
-
+    #if (UNITY_EDITOR)
     [MenuItem("Tools/Toggle Inspector Lock %q")] // Ctrl + q
     static void ToggleInspectorLock()
     {
@@ -26,6 +28,5 @@ static class HotKeysExt
         selectedObjs.RemoveAll(i => deselectedObjs.Contains(i));
         Selection.objects = selectedObjs.ToArray();
     }
-
-
+    #endif
 }

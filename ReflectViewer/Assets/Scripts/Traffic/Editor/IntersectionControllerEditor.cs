@@ -1,12 +1,15 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if (UNITY_EDITOR)
 using UnityEditor;
+#endif
 using System.Text;
 using UnityEditor.Experimental;
 
 namespace CivilFX.TrafficV5
 {
+    #if (UNITY_EDITOR)
     [CustomEditor(typeof(IntersectionController))]
     public class IntersectionControllerEditor : Editor
     {
@@ -337,4 +340,5 @@ namespace CivilFX.TrafficV5
         }
 
     }
+    #endif
 }

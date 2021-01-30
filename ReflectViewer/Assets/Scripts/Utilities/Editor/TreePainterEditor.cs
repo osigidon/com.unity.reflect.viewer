@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if (UNITY_EDITOR)
 using UnityEditor;
+#endif
 using UnityEngine.SceneManagement;
 
 namespace CivilFX
 {
-
+    #if (UNITY_EDITOR)
     [CustomEditor(typeof(TreePainter))]
     public class TreePainterEditor : Editor
     {
@@ -279,4 +281,5 @@ namespace CivilFX
 
         }
     }
+    #endif
 }

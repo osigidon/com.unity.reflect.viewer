@@ -2,15 +2,15 @@ using CivilFX.Generic2;
 using CivilFX.TrafficV5;
 using System.Collections;
 using System.Collections.Generic;
+#if (UNITY_EDITOR)
 using UnityEditor;
 using UnityEditorInternal;
+#endif
 using UnityEngine;
 
 namespace CivilFX.UI2
 {
-
-
-
+    #if (UNITY_EDITOR)
     [CustomEditor(typeof(AnimatedCameraPath))]
     public class AnimatedCameraPathEditor : Editor
     {
@@ -704,4 +704,5 @@ namespace CivilFX.UI2
         }
     }
     */
+    #endif
 }

@@ -1,10 +1,13 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
+#if (UNITY_EDITOR)
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace CivilFX.Generic2
 {
+    #if (UNITY_EDITOR)
     [CustomEditor(typeof(PhasedElement))]
     public class PhasedElementEditor : Editor
     {
@@ -58,7 +61,7 @@ namespace CivilFX.Generic2
             so.ApplyModifiedProperties();
         }
 
-
-
     }
+    #endif
+
 }
