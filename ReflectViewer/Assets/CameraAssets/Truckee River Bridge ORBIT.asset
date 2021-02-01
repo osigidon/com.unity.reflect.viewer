@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a65ca9bbaf9b6a94293c74a87cd16fd9, type: 3}
+  m_Name: Truckee River Bridge ORBIT
+  m_EditorClassIdentifier: 
+  positions:
+  - {x: 347.4, y: 251.81, z: -551.2}
+  - {x: 335.3423, y: 251.81, z: -506.2}
+  - {x: 302.4, y: 251.81, z: -473.25772}
+  - {x: 257.4, y: 251.81, z: -461.2}
+  - {x: 212.4, y: 251.81, z: -473.25772}
+  - {x: 179.4577, y: 251.81, z: -506.2}
+  - {x: 167.4, y: 251.81, z: -551.2}
+  - {x: 179.45772, y: 251.81, z: -596.2}
+  - {x: 212.4, y: 251.81, z: -629.14233}
+  - {x: 257.4, y: 251.81, z: -641.2}
+  - {x: 302.4, y: 251.81, z: -629.14233}
+  - {x: 335.3423, y: 251.81, z: -596.2}
+  - {x: 347.4, y: 251.81, z: -551.2}
+  rotations:
+  - {x: 0.27059805, y: -0.6532815, z: 0.27059805, w: 0.6532815}
+  - {x: -0.19134171, y: 0.8001032, z: -0.33141354, w: -0.46193978}
+  - {x: -0.09904574, y: 0.89239913, z: -0.36964378, w: -0.23911758}
+  - {x: 0, y: 0.92387956, z: -0.38268343, w: 0}
+  - {x: 0.09904574, y: 0.89239913, z: -0.36964378, w: 0.23911758}
+  - {x: 0.19134171, y: 0.8001032, z: -0.33141354, w: 0.46193978}
+  - {x: 0.27059805, y: 0.6532815, z: -0.27059805, w: 0.6532815}
+  - {x: 0.3314136, y: 0.46193975, z: -0.19134174, w: 0.8001032}
+  - {x: 0.36964375, y: 0.23911755, z: -0.09904571, w: 0.89239913}
+  - {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  - {x: 0.36964375, y: -0.23911755, z: 0.09904571, w: 0.89239913}
+  - {x: 0.33141354, y: -0.46193978, z: 0.19134171, w: 0.8001032}
+  - {x: 0.27059805, y: -0.6532815, z: 0.27059805, w: 0.6532815}
+  linkDatas:
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 2
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  showPathway: 0
+  objName: 
+  color: {r: 0, g: 1, b: 0, a: 1}
+  sequence: {fileID: 0}

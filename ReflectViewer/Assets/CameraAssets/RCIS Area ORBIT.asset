@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a65ca9bbaf9b6a94293c74a87cd16fd9, type: 3}
+  m_Name: RCIS Area ORBIT
+  m_EditorClassIdentifier: 
+  positions:
+  - {x: 154, y: 461.81, z: -1297.5}
+  - {x: 194.1924, y: 461.81, z: -1447.5}
+  - {x: 304, y: 461.81, z: -1557.308}
+  - {x: 454, y: 461.81, z: -1597.5}
+  - {x: 604, y: 461.81, z: -1557.308}
+  - {x: 713.8077, y: 461.81, z: -1447.5}
+  - {x: 754, y: 461.81, z: -1297.5}
+  - {x: 713.8076, y: 461.81, z: -1147.5}
+  - {x: 604, y: 461.81, z: -1037.692}
+  - {x: 454, y: 461.81, z: -997.5}
+  - {x: 304, y: 461.81, z: -1037.692}
+  - {x: 194.1924, y: 461.81, z: -1147.5}
+  - {x: 154, y: 461.81, z: -1297.5}
+  rotations:
+  - {x: 0.2705981, y: 0.6532815, z: -0.2705981, w: 0.6532815}
+  - {x: 0.3314136, y: 0.4619398, z: -0.1913417, w: 0.8001032}
+  - {x: 0.3696438, y: 0.2391176, z: -0.09904576, w: 0.8923991}
+  - {x: 0.3826834, y: 0, z: 0, w: 0.9238796}
+  - {x: 0.3696438, y: -0.2391176, z: 0.09904576, w: 0.8923991}
+  - {x: 0.3314135, y: -0.46194, z: 0.1913417, w: 0.800103}
+  - {x: 0.2705981, y: -0.6532815, z: 0.2705981, w: 0.6532815}
+  - {x: -0.1913417, y: 0.8001032, z: -0.3314136, w: -0.4619398}
+  - {x: -0.09904576, y: 0.8923991, z: -0.396438, w: -0.2391176}
+  - {x: 0, y: 0.9238796, z: -0.3826834, w: 0}
+  - {x: 0.09904576, y: 0.8923991, z: -0.396438, w: 0.2391176}
+  - {x: 0.1913417, y: 0.8001032, z: -0.3314136, w: 0.4619398}
+  - {x: 0.2705981, y: 0.6532815, z: -0.3314136, w: 0.4619398}
+  linkDatas:
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 5
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  showPathway: 0
+  objName: 
+  color: {r: 0, g: 1, b: 0, a: 1}
+  sequence: {fileID: 0}

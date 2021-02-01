@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a65ca9bbaf9b6a94293c74a87cd16fd9, type: 3}
+  m_Name: I-580 SB To Airport
+  m_EditorClassIdentifier: 
+  positions:
+  - {x: 109.2, y: 250, z: 424.7}
+  - {x: 109.4, y: 250, z: 319.7}
+  - {x: 109.4, y: 250, z: 243.76}
+  - {x: 109.4, y: 250, z: 197.4}
+  - {x: 109.4, y: 250, z: 147.15}
+  - {x: 109.4, y: 250, z: 103.57}
+  - {x: 109.4, y: 250, z: 49.6}
+  - {x: 105.17, y: 250, z: -22.88}
+  - {x: 101.4, y: 250, z: -113.3}
+  - {x: 102.06, y: 250, z: -190.35}
+  - {x: 121.42, y: 250, z: -366.76}
+  - {x: 170.4, y: 250, z: -467.3}
+  - {x: 320.1, y: 250, z: -670.2}
+  - {x: 397.7, y: 250, z: -816.5}
+  - {x: 433.43, y: 250, z: -1069.5}
+  - {x: 442.6, y: 250, z: -1357.2}
+  - {x: 451.1, y: 250, z: -1559.2}
+  - {x: 458.9, y: 250, z: -1710.44}
+  - {x: 500.1, y: 250, z: -1980.9}
+  - {x: 593.1, y: 250, z: -2380.9}
+  - {x: 666.2, y: 250, z: -2709.4}
+  - {x: 710.3, y: 250, z: -2907.1}
+  rotations:
+  - {x: 0.14635274, y: 9.86, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 9.86, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 9.86, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 9.86, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 9.86, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 9.86, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 9.86, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 9.86, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 9.86, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 9.02, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 5.41, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 2.69, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 3.69, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 11.47, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 19.17, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 19.17, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 19.17, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 19.17, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 19.17, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 19.17, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 19.17, z: -0.2, w: 0.9880239}
+  - {x: 0.14635274, y: 19.17, z: -0.2, w: 0.9880239}
+  linkDatas:
+  - translateType: 0
+    translateSpeed: 6
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 6
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 6
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 8
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 8
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 6
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 7
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 7
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 7
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 8
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 8
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 8
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 10
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 10
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 10
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 10
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 12
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 12
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 12
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 12
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 12
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  - translateType: 0
+    translateSpeed: 12
+    rotationType: 0
+    constantRotation: {x: 0, y: 0, z: 0, w: 0}
+    lookatTarget: {x: 0, y: 0, z: 0}
+  showPathway: 0
+  objName: 
+  color: {r: 0, g: 1, b: 0, a: 1}
+  sequence: {fileID: 0}
