@@ -1,10 +1,12 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
 using UnityEngine.Events;
+using UnityEngine.Reflect;
+
 
 namespace CivilFX.UI2
 {
@@ -42,6 +44,15 @@ namespace CivilFX.UI2
             cancelButton.onClick.AddListener(() => {
                 Hide();
             });
+        }
+
+        private void Update()
+        {
+            // Stop camera while typing camera name, else controlled by WASD
+            if(inputField.isFocused)
+            {
+                GameObject.FindGameObjectWithTag("MainCamera").GetComponent<FreeFlyCamera>().ForceStop();
+            }
         }
 
         public void SetTitle(string name)
