@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -147,7 +147,10 @@ namespace CivilFX.UI2
                 notificationPanelController.SetTitle("Add Still Camera");
                 notificationPanelController.SetInputHint("Enter Camera Name...");
                 notificationPanelController.RegisterConfirmCallback((inputText) => {
-                    stillNodeHandler.Add(new StillNode(inputText, camera.transform.position, camera.transform.eulerAngles, camera.fieldOfView));
+                    //stillNodeHandler.Add(new StillNode(inputText, camera.transform.position, camera.transform.eulerAngles, camera.fieldOfView));
+                    stillNodeHandler.Add(new StillNode(inputText, GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Transform>().position,
+                        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Transform>().eulerAngles,
+                        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>().fieldOfView));
                     SaveStillsToDisk();
                     DrawStillCameraPanel();
                 });
@@ -369,6 +372,7 @@ namespace CivilFX.UI2
             bin.Serialize(stillConfigStream, stillNodeHandler);
             stillConfigStream.Close();
         }
+
         private IEnumerator CheckVisibleRoutine(RectTransform rt, Image up, Image down)
         {
             yield return null;
