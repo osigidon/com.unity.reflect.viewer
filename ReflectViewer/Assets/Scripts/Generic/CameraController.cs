@@ -378,8 +378,8 @@ namespace CivilFX.Generic2
                     cameraTransform.rotation = view.rotation;
                 }
 
-                Debug.Log("isDoneTranslating:" + isDoneTranslating);
-                Debug.Log("isDoneRotating:" + isDoneRotating);
+                //Debug.Log("isDoneTranslating:" + isDoneTranslating);
+                //Debug.Log("isDoneRotating:" + isDoneRotating);
             }
             UnHookView(true);
         }

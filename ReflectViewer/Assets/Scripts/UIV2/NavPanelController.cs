@@ -8,6 +8,10 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System;
 using System.Linq;
 
+using UnityEngine.Reflect.Pipeline;
+using UnityEngine.Reflect.Viewer.Pipeline;
+using UnityEngine.Reflect;
+
 namespace CivilFX.UI2
 {
     public class NavPanelController : MainPanelController
@@ -177,6 +181,21 @@ namespace CivilFX.UI2
             };
         }
 
+        public void Start()
+        {
+            ReflectPipeline[] Pipelines = Resources.FindObjectsOfTypeAll<ReflectPipeline>();
+            if (Pipelines.Length > 0)
+            {
+                ReflectPipeline CurrentCurrentPipeline = Pipelines[0];
+                if (CurrentCurrentPipeline.TryGetNode<StreamIndicatorNode>(out var streamIndicatorNode))
+                {
+                    streamIndicatorNode.settings.gameObjectStreamEnd.AddListener(HandleReflectPipelineEnded);
+                }
+            } else
+            {
+                Debug.Log("Cannot find ReflectPipeline!!!");
+            }
+        }
 
         private void DrawStillCameraPanel()
         {
@@ -246,13 +265,26 @@ namespace CivilFX.UI2
             //draw static cameras
             for (int i = 0; i < staticCameras.Length; i++) {
                 //Debug.Log($"name: {staticCameras[i].name} order: {staticCameras[i].order}");
+                string title = staticCameras[i].gameObject.name;
+                string reflectViewsprefix = "3D View {3D - ";
+                
+                if (title.Contains(reflectViewsprefix))
+                {
+                    title = title.Replace(reflectViewsprefix, string.Empty);
+                    int postfixIndex = title.IndexOf('}');
+                    if (postfixIndex >= 0)
+                    {
+                        title = title.Substring(0, postfixIndex);
+                    }                  
+                }
+                //title = title.Substring(0, 25);
                 int currentIndex = i;
                 var obj = stillCamerasPrefabs[currentObjIndex];
                 obj.transform.SetParent(stillCamerasContent, false);
                 obj.SetActive(true);
                 var buttonScript = obj.GetComponent<CustomButton>();
                 buttonScript.ShowSecondaryButton(false);
-                buttonScript.SetTitle(staticCameras[i].gameObject.name);
+                buttonScript.SetTitle(title);
                 buttonScript.RegisterMainButtonCallback(() => {
                     if (buttonScript == lastSelectedStillButton) {
                         //do nothing
@@ -442,6 +474,19 @@ namespace CivilFX.UI2
                 checkAnimatedRoutine = null;
             }
 
+        }
+
+        //When the project are finished stream in
+        private void HandleReflectPipelineEnded()
+        {
+            Debug.Log("Has New Data");
+            foreach (POI poi in Resources.FindObjectsOfTypeAll<POI>())
+            {
+                CameraNode Node = poi.gameObject.AddComponent<CameraNode>();
+                Node.fov = true;
+                Node.fovValue = poi.fov;
+                DrawStillCameraPanel();
+            }
         }
     }
 }

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 40bf5c578d738854387b3ae0793452cd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: ea07851e64c19f64a82f0489a2cc19de, type: 3}
+  importLights: 1

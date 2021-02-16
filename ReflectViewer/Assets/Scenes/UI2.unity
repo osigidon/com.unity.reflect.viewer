@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17958954, g: 0.22486949, b: 0.30644777, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -15806,100 +15806,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   previewCamera: {fileID: 0}
-  positions:
-  - {x: 154, y: 461.81, z: -1297.5}
-  - {x: 194.1924, y: 461.81, z: -1447.5}
-  - {x: 304, y: 461.81, z: -1557.308}
-  - {x: 454, y: 461.81, z: -1597.5}
-  - {x: 604, y: 461.81, z: -1557.308}
-  - {x: 713.8077, y: 461.81, z: -1447.5}
-  - {x: 754, y: 461.81, z: -1297.5}
-  - {x: 713.8076, y: 461.81, z: -1147.5}
-  - {x: 604, y: 461.81, z: -1037.692}
-  - {x: 454, y: 461.81, z: -997.5}
-  - {x: 304, y: 461.81, z: -1037.692}
-  - {x: 194.1924, y: 461.81, z: -1147.5}
-  - {x: 154, y: 461.81, z: -1297.5}
-  rotations:
-  - {x: 0.2705981, y: 0.6532815, z: -0.2705981, w: 0.6532815}
-  - {x: 0.3314136, y: 0.4619398, z: -0.1913417, w: 0.8001032}
-  - {x: 0.3696438, y: 0.2391176, z: -0.09904576, w: 0.8923991}
-  - {x: 0.3826834, y: 0, z: 0, w: 0.9238796}
-  - {x: 0.3696438, y: -0.2391176, z: 0.09904576, w: 0.8923991}
-  - {x: 0.3314135, y: -0.46194, z: 0.1913417, w: 0.800103}
-  - {x: 0.2705981, y: -0.6532815, z: 0.2705981, w: 0.6532815}
-  - {x: -0.1913417, y: 0.8001032, z: -0.3314136, w: -0.4619398}
-  - {x: -0.09904576, y: 0.8923991, z: -0.396438, w: -0.2391176}
-  - {x: 0, y: 0.9238796, z: -0.3826834, w: 0}
-  - {x: 0.09904576, y: 0.8923991, z: -0.396438, w: 0.2391176}
-  - {x: 0.1913417, y: 0.8001032, z: -0.3314136, w: 0.4619398}
-  - {x: 0.2705981, y: 0.6532815, z: -0.3314136, w: 0.4619398}
-  linkDatas:
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
-  - translateType: 0
-    translateSpeed: 5
-    rotationType: 0
-    constantRotation: {x: 0, y: 0, z: 0, w: 0}
-    lookatTarget: {x: 0, y: 0, z: 0}
+  positions: []
+  rotations: []
+  linkDatas: []
   mode: 0
   height: 300
   radius: 35
@@ -15908,7 +15817,7 @@ MonoBehaviour:
   originTrans: {fileID: 0}
   path: {fileID: 0}
   xTiltAngle: 10
-  asset: {fileID: 11400000, guid: a7ef7a74b14c0d64d877ce38703e193f, type: 2}
+  asset: {fileID: 0}
 --- !u!4 &1802508002
 Transform:
   m_ObjectHideFlags: 0
@@ -17627,6 +17536,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1934938233}
   - component: {fileID: 1934938232}
+  - component: {fileID: 1934938234}
   m_Layer: 0
   m_Name: Preview Camera
   m_TagString: Untagged
@@ -17692,6 +17602,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1934938234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934938231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1001 &1936590264
 PrefabInstance:
   m_ObjectHideFlags: 0
