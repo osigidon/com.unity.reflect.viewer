@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: f8ec30b83a8e55c4b9bb16db2bc798c2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f488ea0f1e5ec1f45a401a0e4b986db1, type: 3}
+  materialRemaps:
+  - syncMaterialName: Phase - Exist_[22807]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Phase - Demo_[22806]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Lit
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 221_221_13_[1993047]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default_[18435]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0_[1993048]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(1)_[1993049]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(2)_[1993050]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(3)_[1993051]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(4)_[1993052]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(5)_[1993053]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(6)_[1993054]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(7)_[1993055]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(8)_[1993056]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(9)_[1993057]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(10)_[1993058]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(11)_[1993059]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(12)_[1993060]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(13)_[1993061]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(14)_[1993062]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(15)_[1993063]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(16)_[1993064]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(17)_[1993065]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(18)_[1993066]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(19)_[1993067]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(20)_[1993068]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(21)_[1993069]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(22)_[1993070]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(23)_[1993071]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(24)_[1993072]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(25)_[1993073]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(26)_[1993074]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(27)_[1993075]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 23_166_0_[1993076]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default(1)_[1993077]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_255_[1993078]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 229_0_166_[1993079]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(28)_[1993080]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(29)_[1993081]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(30)_[1993082]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(31)_[1993083]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(32)_[1993084]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(33)_[1993085]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(34)_[1993086]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(35)_[1993087]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(36)_[1993088]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(37)_[1993089]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(38)_[1993090]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(39)_[1993091]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(40)_[1993092]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(41)_[1993093]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(42)_[1993094]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(43)_[1993095]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 110_99_214_[1993096]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 59_153_181_[1993097]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 175_175_175_[1993099]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 255-255-255_[1352086]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete, Precast (no surf pattern)_[2045597]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Laminate, D_[2075502]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Vitreous China - Zurn - White_[2100186]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Bradley Corp Stainless Steel - Satin_[2103898]_uns...
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: BMCD2AR3_Solid Materials _Metals_Chrome, 2_[210974...
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: BMCD2AR3_Solid Materials _Matte_Normal_White_[2109...
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default - Eemax - 3D View_[2113593]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Mirror_[2110581]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Light Filter_[2110579]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Frame Material_[2110582]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Grey paint_[2141188]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 63-111-127_[2233417]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Plastic_[733593]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Stainless Steel - Bright_[2297141]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default Floor_[18436]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Plastic, Bronze_[2348933]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Polyvinyl Chloride, Rigid_[1323756]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Gypsum Wall Board_[18986]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default Wall_[18438]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal Stud Layer_[18946]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Paint Finish - Grey_[1423764]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Aluminum_[18953]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default Roof_[18437]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Plywood, Sheathing_[18957]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Earth_[18935]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete, Cast-in-Place gray_[18939]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete, Precast_[1323439]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal Deck_[1323443]
+    remappedMaterial: {instanceID: 0}
