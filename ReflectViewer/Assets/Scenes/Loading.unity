@@ -166,13 +166,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stepScenes:
   - {fileID: 102900000, guid: 1a3e0b4eabebf884daeb2f5cbddbff52, type: 3}
-  - {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
-  - {fileID: 102900000, guid: e510078408ff340cda133085416a0934, type: 3}
   concurrenceScenes: []
   stepSceneNames:
   - UI2
-  - Lombard
-  - Reflect
   concurrenceSceneNames: []
   barProgress: {fileID: 874881753}
   circularProgress: {fileID: 1256481847}
