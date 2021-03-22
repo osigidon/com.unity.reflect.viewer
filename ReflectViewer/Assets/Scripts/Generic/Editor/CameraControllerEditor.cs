@@ -1,14 +1,11 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-#if (UNITY_EDITOR)
 using UnityEditor;
 using UnityEditor.IMGUI.Controls;
-#endif
 using UnityEngine;
 
 namespace CivilFX.Generic2
 {
-    #if (UNITY_EDITOR)
     [CustomEditor(typeof(CameraController))]
     public class CameraControllerEditor : Editor
     {
@@ -65,5 +62,4 @@ namespace CivilFX.Generic2
             }
         }
     }
-    #endif
 }
