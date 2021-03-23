@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -193,10 +193,10 @@ namespace CivilFX.Generic2
             Vector3 pinch = Vector3.zero;
             if (scrollValue > 0) {
                 //scroll up
-                pinch = cameraTransform.forward * 100f;
+                pinch = cameraTransform.forward;
             } else if (scrollValue < 0) {
                 //scroll down
-                pinch = -cameraTransform.forward * 100f;
+                pinch = -cameraTransform.forward;
             }
             if (pinch.magnitude > 0.01f) {
                 UnHookView(true);
