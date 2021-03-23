@@ -165,9 +165,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stepScenes:
+  - {fileID: 102900000, guid: 66f75e497260d4646b9c023540d6143a, type: 3}
   - {fileID: 102900000, guid: 1a3e0b4eabebf884daeb2f5cbddbff52, type: 3}
   concurrenceScenes: []
   stepSceneNames:
+  - Lighting
   - UI2
   concurrenceSceneNames: []
   barProgress: {fileID: 874881753}

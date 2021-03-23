@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -328,11 +328,6 @@ namespace CivilFX.Generic2
             if (cameraMoveRoutine != null) {
                 StopCoroutine(cameraMoveRoutine);
             }
-
-            // Added to work with Reflect Camera
-            UnityEngine.Reflect.FreeFlyCamera flyCam = GetComponent<UnityEngine.Reflect.FreeFlyCamera>();
-            flyCam.enabled = false;
-
             cameraMoveRoutine = StartCoroutine(HookingViewRoutine(view));
         }
 
@@ -350,13 +345,13 @@ namespace CivilFX.Generic2
 
         private IEnumerator HookingViewRoutine(Transform view)
         {
-            var isDone = false;
+            var isDoneTranslating = false;
             var velocity = Vector3.zero;
             if (view == null) {
                 cameraMoveRoutine = null;
                 yield break;
             }
-            while (!isDone) {
+            while (!isDoneTranslating) {
                 //yield return new WaitForEndOfFrame();
                 yield return null;
                 //translate camera
@@ -365,23 +360,7 @@ namespace CivilFX.Generic2
                 //rotation
                 Quaternion rot = Quaternion.Slerp(cameraTransform.rotation, view.rotation, (3.0f / 1) * (Time.fixedDeltaTime / Time.timeScale));
                 cameraTransform.rotation = rot;
-
-                bool isDoneTranslating = Vector3.Distance(newPos, view.position) < 0.01f;
-                //https://answers.unity.com/questions/288338/how-do-i-compare-quaternions.html
-                bool isDoneRotating = 1.0 - Mathf.Abs(Quaternion.Dot(rot, view.rotation)) < 0.01f;
-
-                isDone = isDoneTranslating && isDoneRotating;
-                if (isDone)
-                {
-                    //doing a final snap to view to account for 0.01f
-                    cameraTransform.position = view.position;
-                    cameraTransform.rotation = view.rotation;
-                }
-
-                //Debug.Log("isDoneTranslating:" + isDoneTranslating);
-                //Debug.Log("isDoneRotating:" + isDoneRotating);
             }
-            UnHookView(true);
         }
 
 
@@ -392,12 +371,6 @@ namespace CivilFX.Generic2
                 StopCoroutine(cameraMoveRoutine);
                 cameraMoveRoutine = null;
             }
-
-            // Added to work with Reflect Camera
-            UnityEngine.Reflect.FreeFlyCamera flyCam = GetComponent<UnityEngine.Reflect.FreeFlyCamera>();
-            flyCam.ForceStop();
-            flyCam.ResetCamera();
-            flyCam.enabled = true;
         }
 
         public void SetRotationSpeed(float f)
