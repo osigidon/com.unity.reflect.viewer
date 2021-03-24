@@ -1408,6 +1408,11 @@ PrefabInstance:
       propertyPath: near clip plane
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 9047304388396131523, guid: 3ab5e6847f5060349bc97dcbf8e687d0,
+        type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 9047304388396131583, guid: 3ab5e6847f5060349bc97dcbf8e687d0,
         type: 3}
       propertyPath: m_Name
@@ -10986,18 +10991,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 194895163}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1278872076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278872075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f9f75fdbeb362a4b902ff6851e50820, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1278872077
 MonoBehaviour:
   m_ObjectHideFlags: 0
