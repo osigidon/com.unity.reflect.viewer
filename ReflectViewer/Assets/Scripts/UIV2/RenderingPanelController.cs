@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,12 +15,14 @@ namespace CivilFX.UI2
         public CustomButton floatButton;
         public GameObject exportImagePanel;
         public GameObject floatExportPanel;
-        public PanelState state {
+        public PanelState state
+        {
             get;
             set;
         }
 
-        public bool isDocked {
+        public bool isDocked
+        {
             get { return state == PanelState.Docked; }
         }
 
