@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: a2495c7685d45dc4085916c4c2f58720
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: c0807b149981bcd4899c02de6ec022aa, type: 3}
+  generateLightmapUVs: 0
