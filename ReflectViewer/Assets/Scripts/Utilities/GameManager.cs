@@ -8,8 +8,7 @@ namespace CivilFX.Generic2
     public sealed class GameManager
     {
         private static readonly GameManager instance = new GameManager();
-        static GameManager()
-        {
+        static GameManager() {
         }
 
         private GameManager()
@@ -17,30 +16,25 @@ namespace CivilFX.Generic2
 
         }
 
-        public static GameManager Instance
-        {
+        public static GameManager Instance {
             get { return instance; }
         }
 
-        public Camera mainCamera
-        {
+        public Camera mainCamera {
             get;
             set;
         }
-        public CameraController cameraController
-        {
-            get;
-            set;
-        }
-
-        public ImageRenderer imageRenderer
-        {
+        public CameraController cameraController {
             get;
             set;
         }
 
-        public MovieRecorder movieRecorder
-        {
+        public ImageRenderer imageRenderer {
+            get;
+            set;
+        }
+
+        public MovieRecorder movieRecorder {
             get;
             set;
         }
