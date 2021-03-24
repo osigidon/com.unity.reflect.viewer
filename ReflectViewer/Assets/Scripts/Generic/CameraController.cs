@@ -107,7 +107,8 @@ namespace CivilFX.Generic2
                 ProcessMouseInput();
                 ProcessMobileInput();
             }
-            //ProcessKeyboardInput();
+
+            ProcessKeyboardInput();
 
             //check bounding box
             if (cameraMoveRoutine == null && useBoundingBox) {
