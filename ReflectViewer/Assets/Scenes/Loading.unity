@@ -167,10 +167,12 @@ MonoBehaviour:
   stepScenes:
   - {fileID: 102900000, guid: 66f75e497260d4646b9c023540d6143a, type: 3}
   - {fileID: 102900000, guid: 1a3e0b4eabebf884daeb2f5cbddbff52, type: 3}
+  - {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
   concurrenceScenes: []
   stepSceneNames:
   - Lighting
   - UI2
+  - Lombard
   concurrenceSceneNames: []
   barProgress: {fileID: 874881753}
   circularProgress: {fileID: 1256481847}
