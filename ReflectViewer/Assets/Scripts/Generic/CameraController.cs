@@ -37,7 +37,7 @@ namespace CivilFX.Generic2
 
 
         //mouse input variables
-        private float mouseZoomSpeed = 50f;
+        private float mouseZoomSpeed = 1f;
         private Vector3 lastMouseDownPos;
         private float panSpeed = 0.5f;
         private float zAxis;
@@ -124,10 +124,10 @@ namespace CivilFX.Generic2
         {
             //both mouse to zoom
             if (Input.GetKey(KeyCode.RightShift) || Input.GetKey(KeyCode.LeftShift)) {
-                mouseZoomSpeed = 500f;
+                mouseZoomSpeed = 25f;
                 panSpeed = 0.5f * 10f;
             } else {
-                mouseZoomSpeed = 50f;
+                mouseZoomSpeed = 10f;
                 panSpeed = 0.5f;
             }
 
