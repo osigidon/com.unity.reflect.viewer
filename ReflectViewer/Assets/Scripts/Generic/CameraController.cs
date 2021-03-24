@@ -208,11 +208,11 @@ namespace CivilFX.Generic2
         {
             if (Input.GetKey(KeyCode.D)) {
                 UnHookView(true);
-                transform.Translate(new Vector3(panSpeed * 100 * (Time.deltaTime / Time.timeScale), 0, 0));
+                transform.Translate(new Vector3(panSpeed * 5 * (Time.deltaTime / Time.timeScale), 0, 0));
             }
             if (Input.GetKey(KeyCode.A)) {
                 UnHookView(true);
-                transform.Translate(new Vector3(-panSpeed * 100 * (Time.deltaTime / Time.timeScale), 0, 0));
+                transform.Translate(new Vector3(-panSpeed * 5 * (Time.deltaTime / Time.timeScale), 0, 0));
             }
             if (Input.GetKey(KeyCode.Q)) {
                 transform.Translate(new Vector3(0, -panSpeed * 100 * (Time.deltaTime / Time.timeScale), 0));
