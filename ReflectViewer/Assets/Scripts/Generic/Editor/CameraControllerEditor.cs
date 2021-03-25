@@ -37,6 +37,12 @@ namespace CivilFX.Generic2
 
             SerializedProperty sp;
 
+            EditorGUILayout.Space();
+            sp = so.FindProperty("notificationPanel");
+            EditorGUILayout.PropertyField(sp);
+            EditorGUILayout.Space();
+
+
             EditorGUILayout.LabelField("Bounding Box:", EditorStyles.boldLabel);
             sp = so.FindProperty("useBoundingBox");
             EditorGUILayout.PropertyField(sp);

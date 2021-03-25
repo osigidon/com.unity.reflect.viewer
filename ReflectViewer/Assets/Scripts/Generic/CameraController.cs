@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UTJ.FrameCapturer;
+using CivilFX.UI2;
 
 namespace CivilFX.Generic2
 {
@@ -70,6 +71,9 @@ namespace CivilFX.Generic2
         private CameraState camState;
         private float defaultFOV;
 
+        public GameObject notificationPanel;
+
+
         void Awake()
         {
             cameraTransform = gameObject.transform;
@@ -90,11 +94,11 @@ namespace CivilFX.Generic2
         {
             Vector3 oldPos;
 
-            RaycastHit hit;
-            CharacterController charContr = GetComponent<CharacterController>();
-            Vector3 p1 = transform.position + charContr.center + Vector3.up * -charContr.height * 0.5F;
-            Vector3 p2 = p1 + Vector3.up * charContr.height;
-            float distanceToObstacle = 0;
+            //RaycastHit hit;
+            //CharacterController charContr = GetComponent<CharacterController>();
+            //Vector3 p1 = transform.position + charContr.center + Vector3.up * -charContr.height * 0.5F;
+            //Vector3 p2 = p1 + Vector3.up * charContr.height;
+            //float distanceToObstacle = 0;
 
             if (useBoundingBox) {
                 oldPos = cameraTransform.position;
@@ -115,7 +119,8 @@ namespace CivilFX.Generic2
                 ProcessMobileInput();
             }
 
-            ProcessKeyboardInput();
+            if(!notificationPanel.GetComponent<NotificationPanelController>().inputField.isFocused)
+                ProcessKeyboardInput();
 
             //check bounding box
             if (cameraMoveRoutine == null && useBoundingBox) {
@@ -128,13 +133,13 @@ namespace CivilFX.Generic2
 
             // Check collision, return player to beginning pos if hit
             // Cast character controller shape 10 meters forward to see if it is about to hit anything.
-            if (Physics.CapsuleCast(p1, p2, charContr.radius, transform.forward, out hit, 10))
-            {
-                Debug.Log("hit!");
-                distanceToObstacle = hit.distance;
+            //if (Physics.CapsuleCast(p1, p2, charContr.radius, transform.forward, out hit, 10))
+            //{
+            //    Debug.Log("hit!");
+            //    distanceToObstacle = hit.distance;
 
-                cameraTransform.position = oldPos;
-            }
+            //    cameraTransform.position = oldPos;
+            //}
         }
 
         private void ProcessMouseInput()
@@ -222,30 +227,38 @@ namespace CivilFX.Generic2
         }
         private void ProcessKeyboardInput()
         {
-            if (Input.GetKey(KeyCode.D)) {
+            if (Input.GetKey(KeyCode.D))
+            {
                 UnHookView(true);
                 transform.Translate(new Vector3(panSpeed * 5 * (Time.deltaTime / Time.timeScale), 0, 0));
             }
-            if (Input.GetKey(KeyCode.A)) {
+            if (Input.GetKey(KeyCode.A))
+            {
                 UnHookView(true);
                 transform.Translate(new Vector3(-panSpeed * 5 * (Time.deltaTime / Time.timeScale), 0, 0));
             }
-            if (Input.GetKey(KeyCode.Q)) {
+            if (Input.GetKey(KeyCode.Q))
+            {
                 transform.Translate(new Vector3(0, -panSpeed * 5 * (Time.deltaTime / Time.timeScale), 0));
             }
-            if (Input.GetKey(KeyCode.E)) {
+            if (Input.GetKey(KeyCode.E))
+            {
                 transform.Translate(new Vector3(0, panSpeed * 5 * (Time.deltaTime / Time.timeScale), 0));
             }
-            if (Input.GetKey(KeyCode.S)) {
+            if (Input.GetKey(KeyCode.S))
+            {
                 UnHookView(true);
                 var zoom = -cameraTransform.forward;
                 cameraTransform.Translate(zoom * (Time.deltaTime / Time.timeScale) * mouseZoomSpeed, Space.World);
             }
-            if (Input.GetKey(KeyCode.W)) {
+            if (Input.GetKey(KeyCode.W))
+            {
                 var zoom = cameraTransform.forward;
                 cameraTransform.Translate(zoom * (Time.deltaTime / Time.timeScale) * mouseZoomSpeed, Space.World);
             }
         }
+
+
         private void GatherTouches()
         {
             touchList.Clear();
