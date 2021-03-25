@@ -89,6 +89,13 @@ namespace CivilFX.Generic2
         void Update()
         {
             Vector3 oldPos;
+
+            RaycastHit hit;
+            CharacterController charContr = GetComponent<CharacterController>();
+            Vector3 p1 = transform.position + charContr.center + Vector3.up * -charContr.height * 0.5F;
+            Vector3 p2 = p1 + Vector3.up * charContr.height;
+            float distanceToObstacle = 0;
+
             if (useBoundingBox) {
                 oldPos = cameraTransform.position;
             } else {
@@ -118,7 +125,16 @@ namespace CivilFX.Generic2
                     cameraTransform.position = oldPos;
                 }
             }
-            
+
+            // Check collision, return player to beginning pos if hit
+            // Cast character controller shape 10 meters forward to see if it is about to hit anything.
+            if (Physics.CapsuleCast(p1, p2, charContr.radius, transform.forward, out hit, 10))
+            {
+                Debug.Log("hit!");
+                distanceToObstacle = hit.distance;
+
+                cameraTransform.position = oldPos;
+            }
         }
 
         private void ProcessMouseInput()
