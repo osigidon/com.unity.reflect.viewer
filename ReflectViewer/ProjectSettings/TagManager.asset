@@ -7,6 +7,10 @@ TagManager:
   - VRPlayer
   - MiniWorldCamera
   - ShowInMiniWorld
+  - Compass
+  - ClearanceZones
+  - Lights
+  - Ground
   layers:
   - Default
   - TransparentFX

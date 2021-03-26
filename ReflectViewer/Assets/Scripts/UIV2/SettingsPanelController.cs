@@ -1,4 +1,4 @@
-﻿using CivilFX.Generic2;
+using CivilFX.Generic2;
 using CivilFX.TrafficV5;
 using System.Collections;
 using System.Collections.Generic;
@@ -24,7 +24,16 @@ namespace CivilFX.UI2
 
         [Space()]
         [Header("Others Panel:")]
-        public Toggle trees;
+        public Toggle compassToggle;
+        GameObject compass;
+        private bool compassOff = false;
+
+
+        void Start()
+        {
+            compass = GameObject.FindGameObjectWithTag("Compass");
+        }
+
 
         private void Awake()
         {
@@ -71,6 +80,22 @@ namespace CivilFX.UI2
                     resetTraffic.RestoreInternalState();
                 }              
             });
+
+
+            /*
+            * Others
+               */
+            compassToggle.onValueChanged.AddListener(delegate {
+                ToggleCompass();
+            });
+        }
+
+
+        void ToggleCompass()
+        {
+            compass.SetActive(compassOff);
+
+            compassOff = !compassOff;
         }
     }
 }
