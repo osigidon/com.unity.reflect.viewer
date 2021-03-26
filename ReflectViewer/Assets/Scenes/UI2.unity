@@ -22207,8 +22207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useBoundingBox: 1
-  boxSize: {x: 85.1, y: 17.34, z: 62}
-  boxCenter: {x: -16, y: 0, z: 2.5}
+  boxSize: {x: 109.9, y: 17.34, z: 79.36}
+  boxCenter: {x: -11.8, y: 0, z: 2.5}
   cam: {fileID: 0}
   notificationPanel: {fileID: 1412357405}
 --- !u!45 &9047304388555766269
