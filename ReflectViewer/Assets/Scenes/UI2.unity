@@ -2572,6 +2572,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314252595}
   m_CullTransparentMesh: 0
+--- !u!1 &317974108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 317974109}
+  - component: {fileID: 317974110}
+  m_Layer: 0
+  m_Name: Cam 2 (Influent Pipe)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &317974109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317974108}
+  m_LocalRotation: {x: 0.04406281, y: 0.7202962, z: -0.045948274, w: 0.6907392}
+  m_LocalPosition: {x: -16.3, y: 2, z: 6.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 7.3, y: 92.4, z: 0}
+--- !u!114 &317974110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317974108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 2
+  fov: 1
+  fovValue: 90
 --- !u!114 &329069846 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7926918180830397564, guid: a2c06abe538a38446962de95d903d24b,
@@ -3423,6 +3469,52 @@ MonoBehaviour:
   notificationPanelController: {fileID: 1412357409}
   cameraDirector: {fileID: 628672502}
   cheveronController: {fileID: 1571053489}
+--- !u!1 &438102728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 438102729}
+  - component: {fileID: 438102730}
+  m_Layer: 0
+  m_Name: Cam 19 (Dry Installed Wastewater Pumps)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &438102729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438102728}
+  m_LocalRotation: {x: -0.2662483, y: -0.009783673, z: 0.021347709, w: -0.9636184}
+  m_LocalPosition: {x: 4.7, y: -7.4, z: 2.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 30.9, y: 0.5, z: 357.6}
+--- !u!114 &438102730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438102728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 19
+  fov: 1
+  fovValue: 90
 --- !u!1 &453267459
 GameObject:
   m_ObjectHideFlags: 0
@@ -3650,6 +3742,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &464026287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 464026288}
+  - component: {fileID: 464026289}
+  m_Layer: 0
+  m_Name: Cam 20 (CPP Columbia Vault Entrance)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &464026288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464026287}
+  m_LocalRotation: {x: -0.371719, y: -0.59392345, z: 0.38103226, w: -0.60323656}
+  m_LocalPosition: {x: -7.5, y: 3.8, z: -1.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 64.3, y: 87.6, z: 357.6}
+--- !u!114 &464026289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464026287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 20
+  fov: 1
+  fovValue: 90
 --- !u!1001 &489506158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3952,6 +4090,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499370829}
   m_CullTransparentMesh: 0
+--- !u!1 &500071140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 500071141}
+  - component: {fileID: 500071142}
+  m_Layer: 0
+  m_Name: Cam 6 (Direct Drive Centrifugal Inline Fan)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &500071141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500071140}
+  m_LocalRotation: {x: 0.023495149, y: -0.37124884, z: -0.009397387, w: -0.92818856}
+  m_LocalPosition: {x: 3.5, y: 2, z: 6.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 357.1, y: 43.6, z: 0}
+--- !u!114 &500071142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500071140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 6
+  fov: 1
+  fovValue: 90
 --- !u!1 &505415581
 GameObject:
   m_ObjectHideFlags: 0
@@ -5665,6 +5849,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 582765406}
   m_CullTransparentMesh: 0
+--- !u!1 &588242113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 588242114}
+  - component: {fileID: 588242115}
+  m_Layer: 0
+  m_Name: Cam 18 (Interior Stairs Downwards)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &588242114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588242113}
+  m_LocalRotation: {x: -0.33461058, y: -0.2625535, z: 0.115365595, w: -0.89765936}
+  m_LocalPosition: {x: 3.2, y: -1.9, z: 2.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 41.4, y: 31.7, z: 357.6}
+--- !u!114 &588242115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588242113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 18
+  fov: 1
+  fovValue: 90
 --- !u!1 &591523513
 GameObject:
   m_ObjectHideFlags: 0
@@ -5815,6 +6045,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604306923}
   m_CullTransparentMesh: 0
+--- !u!1 &607219012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607219013}
+  - component: {fileID: 607219014}
+  m_Layer: 0
+  m_Name: Cam 9 (Motor Control Center)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &607219013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607219012}
+  m_LocalRotation: {x: 0.026689202, y: 0.70227957, z: -0.026365114, w: 0.71091217}
+  m_LocalPosition: {x: 3.6, y: 2.3, z: 2.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 4.3, y: 89.3, z: 0}
+--- !u!114 &607219014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607219012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 9
+  fov: 1
+  fovValue: 90
 --- !u!114 &609065070 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 278743843779332171, guid: ca956263b5939554aaf56aa35116faa4,
@@ -6191,6 +6467,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641319651}
   m_CullTransparentMesh: 0
+--- !u!1 &647623194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 647623195}
+  - component: {fileID: 647623196}
+  m_Layer: 0
+  m_Name: Cam 15 (RHS-SP-S)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &647623195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647623194}
+  m_LocalRotation: {x: 0.032559965, y: 0.74458605, z: -0.03641634, w: 0.66573673}
+  m_LocalPosition: {x: 1.4, y: 1.8, z: 5.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 5.6, y: 96.4, z: 0}
+--- !u!114 &647623196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647623194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 15
+  fov: 1
+  fovValue: 90
 --- !u!1 &649864542
 GameObject:
   m_ObjectHideFlags: 0
@@ -6413,6 +6735,52 @@ RectTransform:
   m_AnchoredPosition: {x: 12.199997, y: -21.802}
   m_SizeDelta: {x: 24.4, y: 43.597}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &666466916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 666466917}
+  - component: {fileID: 666466918}
+  m_Layer: 0
+  m_Name: Cam 17 (Inflient Isolation Gate Actuator)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &666466917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666466916}
+  m_LocalRotation: {x: 0.0751095, y: 0.6976241, z: -0.07393885, w: 0.70866936}
+  m_LocalPosition: {x: -0.2, y: -4.6, z: 4.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 12.1, y: 89.1, z: 0}
+--- !u!114 &666466918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666466916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 17
+  fov: 1
+  fovValue: 90
 --- !u!1 &667637795
 GameObject:
   m_ObjectHideFlags: 0
@@ -7186,6 +7554,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2295da19f04d2db47b7a534a6c952fde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &734800856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 734800857}
+  - component: {fileID: 734800858}
+  m_Layer: 0
+  m_Name: Cam 12 (Lighting/Appliance Panel)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &734800857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734800856}
+  m_LocalRotation: {x: 0.010992725, y: 0.9885927, z: -0.11963283, w: 0.090839006}
+  m_LocalPosition: {x: 1, y: 1.7, z: 1.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 13.8, y: 169.5, z: 0}
+--- !u!114 &734800858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734800856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 12
+  fov: 1
+  fovValue: 90
 --- !u!1 &737832975
 GameObject:
   m_ObjectHideFlags: 0
@@ -7258,6 +7672,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 0
+--- !u!1 &740726344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 740726345}
+  - component: {fileID: 740726346}
+  m_Layer: 0
+  m_Name: Cam 16 (Interior Ladder  Downwards)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &740726345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740726344}
+  m_LocalRotation: {x: -0.2946312, y: 0.70535016, z: -0.45282674, w: -0.45893526}
+  m_LocalPosition: {x: 1.4, y: -0.2, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 65.4, y: 246.1, z: 0}
+--- !u!114 &740726346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740726344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 16
+  fov: 1
+  fovValue: 90
 --- !u!114 &741207576 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2859112289524223864, guid: 45b2d74068fad964d97552a0b6bdb8e0,
@@ -7559,6 +8019,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 24.149992}
   m_SizeDelta: {x: 100, y: 14.9}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &788000938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 788000939}
+  - component: {fileID: 788000940}
+  m_Layer: 0
+  m_Name: Cam 11 (Flow Mtr Cnt Panel)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &788000939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788000938}
+  m_LocalRotation: {x: -0.092994265, y: 0.7331041, z: -0.10237872, w: -0.66590476}
+  m_LocalPosition: {x: 1.5, y: 2, z: 0.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 15.9, y: 264.5, z: 0}
+--- !u!114 &788000940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788000938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 11
+  fov: 1
+  fovValue: 90
 --- !u!224 &789231245 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 237148419653766303, guid: bbc2a20569fc0f34ab71c735482d488e,
@@ -7630,6 +8136,52 @@ MonoBehaviour:
   previewSurface: {fileID: 1969203742}
   recorderCallbackObject: {fileID: 649864542}
   exportCustomPanel: {fileID: 461771068}
+--- !u!1 &798441019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 798441020}
+  - component: {fileID: 798441021}
+  m_Layer: 0
+  m_Name: 'Cam 3 (Diesel Generator) '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &798441020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798441019}
+  m_LocalRotation: {x: 0.00015991513, y: 0.999794, z: -0.018324213, w: 0.008725187}
+  m_LocalPosition: {x: 2.5, y: 3.2, z: 28.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 2.1, y: 179, z: 0}
+--- !u!114 &798441021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798441019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 3
+  fov: 1
+  fovValue: 50
 --- !u!1 &800592290
 GameObject:
   m_ObjectHideFlags: 0
@@ -8050,9 +8602,122 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1791718722}
+  - {fileID: 317974109}
+  - {fileID: 798441020}
+  - {fileID: 1015504096}
+  - {fileID: 1879436086}
+  - {fileID: 500071141}
+  - {fileID: 2120217088}
+  - {fileID: 846423654}
+  - {fileID: 607219013}
+  - {fileID: 1882262154}
+  - {fileID: 788000939}
+  - {fileID: 734800857}
+  - {fileID: 864211718}
+  - {fileID: 850918496}
+  - {fileID: 647623195}
+  - {fileID: 740726345}
+  - {fileID: 666466917}
+  - {fileID: 588242114}
+  - {fileID: 438102729}
+  - {fileID: 464026288}
+  - {fileID: 1100446432}
+  - {fileID: 1187664443}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &846423653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 846423654}
+  - component: {fileID: 846423655}
+  m_Layer: 0
+  m_Name: Cam 8 (Sump Pump Ctr && SSPC Panels)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &846423654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846423653}
+  m_LocalRotation: {x: 0.03520298, y: 0.67865884, z: -0.032598317, w: 0.73288494}
+  m_LocalPosition: {x: 3.6, y: 2.1, z: 4.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 5.5, y: 85.6, z: 0}
+--- !u!114 &846423655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846423653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 8
+  fov: 1
+  fovValue: 90
+--- !u!1 &850918495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 850918496}
+  - component: {fileID: 850918497}
+  m_Layer: 0
+  m_Name: Cam 14 (Jct Box Receptacles)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &850918496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850918495}
+  m_LocalRotation: {x: 0.2397466, y: 0.64966977, z: -0.22751105, w: 0.684609}
+  m_LocalPosition: {x: 1.1, y: 1.2, z: 4.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 38.6, y: 87, z: 0}
+--- !u!114 &850918497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850918495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 14
+  fov: 1
+  fovValue: 90
 --- !u!1 &857202030
 GameObject:
   m_ObjectHideFlags: 0
@@ -8171,6 +8836,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857202030}
   m_CullTransparentMesh: 0
+--- !u!1 &864211717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 864211718}
+  - component: {fileID: 864211719}
+  m_Layer: 0
+  m_Name: Cam 13 (Hydra Panel)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &864211718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864211717}
+  m_LocalRotation: {x: -0.010471769, y: 0.0008729279, z: -0.000009141603, w: -0.99994487}
+  m_LocalPosition: {x: 1.1, y: 1.9, z: 1.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 1.2, y: 359.9, z: 0}
+--- !u!114 &864211719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864211717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 13
+  fov: 1
+  fovValue: 90
 --- !u!1 &881959901
 GameObject:
   m_ObjectHideFlags: 0
@@ -9506,6 +10217,52 @@ RectTransform:
   m_AnchoredPosition: {x: 172.5, y: -92.45501}
   m_SizeDelta: {x: 115, y: 135.1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1015504095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1015504096}
+  - component: {fileID: 1015504097}
+  m_Layer: 0
+  m_Name: Cam 4 (Pump Station Left Side)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1015504096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015504095}
+  m_LocalRotation: {x: -0.000343791, y: 0.91913503, z: -0.00080212473, w: -0.39394167}
+  m_LocalPosition: {x: 21.7, y: 3.4, z: 19.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0.1, y: 226.4, z: 0}
+--- !u!114 &1015504097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015504095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 4
+  fov: 1
+  fovValue: 42
 --- !u!1 &1050687546
 GameObject:
   m_ObjectHideFlags: 0
@@ -9878,6 +10635,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083118040}
   m_CullTransparentMesh: 0
+--- !u!1 &1100446431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1100446432}
+  - component: {fileID: 1100446433}
+  m_Layer: 0
+  m_Name: Cam 21 (CPP Columbia Vault)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1100446432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100446431}
+  m_LocalRotation: {x: -0.3719394, y: -0.60723275, z: 0.41094685, w: -0.5692558}
+  m_LocalPosition: {x: -6.6, y: -0.4, z: -0.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 67.3, y: 92.1, z: 357.6}
+--- !u!114 &1100446433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100446431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 21
+  fov: 1
+  fovValue: 90
 --- !u!114 &1102893663 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7926918180830397564, guid: a2c06abe538a38446962de95d903d24b,
@@ -10278,6 +11081,52 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1163431524}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1187664442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1187664443}
+  - component: {fileID: 1187664444}
+  m_Layer: 0
+  m_Name: Cam 22 (600A Encl. CB / KwHr Meter)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1187664443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187664442}
+  m_LocalRotation: {x: -0.11789617, y: -0.02413578, z: 0.023372719, w: -0.9924574}
+  m_LocalPosition: {x: 4.4, y: 3, z: -4.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 13.6, y: 2.5, z: 357.6}
+--- !u!114 &1187664444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187664442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 22
+  fov: 1
+  fovValue: 30
 --- !u!1001 &1188200354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16092,7 +16941,7 @@ GameObject:
   - component: {fileID: 1791718722}
   - component: {fileID: 1791718723}
   m_Layer: 0
-  m_Name: Cam 1
+  m_Name: Cam 1 (Pump Station Overview)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16126,7 +16975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   order: 1
   fov: 1
-  fovValue: 75
+  fovValue: 60
 --- !u!1 &1802508000
 GameObject:
   m_ObjectHideFlags: 0
@@ -17205,6 +18054,98 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
+--- !u!1 &1879436085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1879436086}
+  - component: {fileID: 1879436087}
+  m_Layer: 0
+  m_Name: Cam 5 (Electrical Room Overview)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1879436086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879436085}
+  m_LocalRotation: {x: 0.0013533604, y: 0.97513115, z: -0.0059568356, w: 0.22154444}
+  m_LocalPosition: {x: 3.2, y: 1.8, z: 7.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0.7, y: 154.4, z: 0}
+--- !u!114 &1879436087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879436085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 5
+  fov: 1
+  fovValue: 90
+--- !u!1 &1882262153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1882262154}
+  - component: {fileID: 1882262155}
+  m_Layer: 0
+  m_Name: Cam 10 (Automatic Transfer Switch)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1882262154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882262153}
+  m_LocalRotation: {x: 0.00045527163, y: 0.9991301, z: -0.0401292, w: 0.011335277}
+  m_LocalPosition: {x: 4.9, y: 1.7, z: 2.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 4.6, y: 178.7, z: 0}
+--- !u!114 &1882262155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882262153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 10
+  fov: 1
+  fovValue: 90
 --- !u!1 &1899676841
 GameObject:
   m_ObjectHideFlags: 0
@@ -19624,6 +20565,52 @@ RectTransform:
   m_AnchoredPosition: {x: 217.8, y: -21.799}
   m_SizeDelta: {x: 24.4, y: 43.597}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2120217087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2120217088}
+  - component: {fileID: 2120217089}
+  m_Layer: 0
+  m_Name: Cam 7 (Junction Boxes &  Air / Vacuum Valves)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2120217088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120217087}
+  m_LocalRotation: {x: -0.07325393, y: 0.69781536, z: -0.07211222, w: -0.7088635}
+  m_LocalPosition: {x: 4.2, y: 2, z: 5.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 11.8, y: 270.9, z: 0}
+--- !u!114 &2120217089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120217087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 7
+  fov: 1
+  fovValue: 90
 --- !u!114 &2123392119 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2523545788753206582, guid: 1a75b0ce7bf91ab4aa22e5ccfee22145,
