@@ -1,0 +1,411 @@
+fileFormatVersion: 2
+guid: c08d42c9174dbbe4695c339397542d1b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f488ea0f1e5ec1f45a401a0e4b986db1, type: 3}
+  materialRemaps:
+  - syncMaterialName: Earth_[18935]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Stainless Steel_[725270]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete, High Strength_[2776315]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel, Galvanized_[1918525]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: PVC - Spears Manufacturing_[2870795]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 127-191-255_[1466589]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 153-153-153_[2795951]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 255-255-0_[1466586]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Polyvinyl Chloride, Rigid_[1323756]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Plastic - Generic Black_[2279561]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Stainless Steel - Bright_[2279549]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Lit
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 255-255-255_[1352086]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel, Carbon_[725266]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel ASTM A992_[1994695]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 221_221_13_[1993047]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default_[18435]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0_[1993048]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(1)_[1993049]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(2)_[1993050]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(3)_[1993051]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(4)_[1993052]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(5)_[1993053]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(6)_[1993054]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(7)_[1993055]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(8)_[1993056]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(9)_[1993057]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(10)_[1993058]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(11)_[1993059]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(12)_[1993060]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(13)_[1993061]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(14)_[1993062]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(15)_[1993063]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(16)_[1993064]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(17)_[1993065]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(18)_[1993066]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(19)_[1993067]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(20)_[1993068]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(21)_[1993069]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(22)_[1993070]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(23)_[1993071]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(24)_[1993072]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(25)_[1993073]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(26)_[1993074]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(27)_[1993075]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 23_166_0_[1993076]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default(1)_[1993077]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_255_[1993078]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 229_0_166_[1993079]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(28)_[1993080]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(29)_[1993081]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(30)_[1993082]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(31)_[1993083]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(32)_[1993084]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(33)_[1993085]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(34)_[1993086]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(35)_[1993087]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(36)_[1993088]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(37)_[1993089]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(38)_[1993090]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(39)_[1993091]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(40)_[1993092]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(41)_[1993093]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(42)_[1993094]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 255_255_0(43)_[1993095]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 110_99_214_[1993096]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 59_153_181_[1993097]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 175_175_175_[1993099]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete, Precast (no surf pattern)_[2045597]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Laminate, D_[2075502]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: PVC-Charlotte_[2069850]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Victaulic_[1580630]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Grey paint_[2141188]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 255-255-255_[1352086_ds]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Iron, Ductile_[725268]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Apollo - Bronze Lead Free_[2021378]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Plastic - Apollo - Vinyl, White_[2021380]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Apollo - Steel, Chrome Plated_[2021379]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Apollo - Brass_[2021381]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Zinc - Apollo_[2021374]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Stainless Steel - Apollo_[2021376]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Aluminum_[18953_ds]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Iron, Wrought_[2216750_ds]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 63-111-127_[2233417]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - NIBCO - Cast Iron - Black_[2234246]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - NIBCO - Steel - Stainless_[2141191]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - NIBCO - Iron - Ductile - Red_[2141190]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Polyvinyl Chloride - Rigid_[727277]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Brass - Apollo_[2034707]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Bronze - Apollo_[2034705]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Plastic_[733593]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel ASTM A36_[2331485]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Base_[2331488]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Iron, Gray Cast ASTM A48 Grade 35_[2398548]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Iron, Gray Cast ASTM A48 Grade 30_[2398540]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete, Cast-in-Place, Gray_[2432907]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Stainless Steel AISI 304_[2519350]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Copper_[727270]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Stainless Steel - Bright_[2297141]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete, Broom Finish_[2565135]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel, Cast_[2216751]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Aluminum - Atkore - Electro - Galvanized_[...
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 153-153-153_[2109742_ds]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 192-192-192_[1924066_ds]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 0-0-0_[1988121_ds]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 204-204-204_[2590309_ds]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 255-0-0_[1783338_ds]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 128-128-128_[1783334_ds]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 127-95-0_[2590214_ds]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 63-127-127_[1352085_ds]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 165-124-0_[2590310_ds]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Aluminum Cast_[2612495]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Galvanized_[2627270]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel, Mild_[2646340]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel, Paint Finish, Red_[2669815]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Aluminum-Bilco-Mill Finish With Bituminous Exterio...
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Brass-Bilco-Satin_[2669830]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Plastic-Bilco-Rubber Black_[2669819]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Aluminum-Bilco-Mill Finish_[2669817]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Stainless Steel-Bilco-316_[2669850]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Copper_[2202608]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Bronze - Mueller - Cast_[1480359]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Copper - Mueller - Wrot_[1480360]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Rubber - Nibco - Plastisol - Blue_[2738337]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Nibco - Brass_[2738341]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal-WATTS-Cast Copper Silicon Alloy_[1927389]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Plastic Dark Gray_[2893426]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metallic Paint Gold Satin_[2893425]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metallic Paint Goldenrod Satin_[2893424]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Red_[2893427]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Aluminum Satin_[2893423]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Nibco - Iron - Malleable_[2891576]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Nibco - Bronze - Silicon_[2891575]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Nibco - Bronze - ASTM B 62_[2891574]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Brass Satin Brushed Heavy_[2902617]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Brass Polished_[2902570]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Nibco - Steel - Plated_[2738322]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Eemax - Steel - Stainless_[2113609]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Plastic - Eemax - ABS UL 94Vo_[2113587]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Black Paint_[863735]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: CAT Black_[1085152]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: CAT Yellow_[1085151]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Clearance_[1085153]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel Panel_[863724]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Schneider Electric - Gray_[911424]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Clearance Zone_[1290138]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Thermoplastic - Leviton - Black_[1119927]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Thermoplastic - Leviton - Gray_[1119928]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: BLWP - Housing_[1900633]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: BLWP - Diffuser_[1900634]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: TWR1 - Diffuser_[2246114]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: TWR1 - Housing_[2246113]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: 5VA (f1) Fiberglass_[2316736]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Frosted, ribbed, impact-resistant acrylic_[2316735...
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: ELA ZX - Housing_[2330960]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: ELA ZX - Diffuser_[2330962]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: KAX1 LED - Housing_[2399976]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: KAX2 LED - Diffuser_[2665928]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default Light Source_[379617]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 255-255-255_[843691]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Stainless Steel - Bright_[2922800]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete, Broom Finish_[3140939]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Render Material 192-192-192_[846688]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Eemax - Steel - Stainless_[2876170]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Plastic - Eemax - ABS UL 94Vo_[2876168]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Schneider Electric - Metal - Steel - ANSI 49_[8637...
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Schneider Electric - Yellow_[911423_ds]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Schneider Electric - Clearance_[863726]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Schneider Electric - Black_[863728]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete Masonry Units_[18942]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default Roof_[18437]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Paint - Generic - Prime_[1448848]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete, Cast-in-Place gray_[18939]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default Wall_[18438]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete_[733584]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal Deck_[1323443]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Default Floor_[18436]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Gypsum Wall Board_[18986]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal Stud Layer_[18946]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Aluminum_[18953]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Paint Finish - Grey_[1423764]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Light Gauge_[2003554]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel ASTM A36_[2003553]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Plywood, Sheathing_[18957]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Concrete, Precast_[1323439]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Paint - BEC Fascia_[2104650]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel, Galvanized_[2295593]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Softwood, Lumber_[18960]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Stainless Steel-Bobrick-Type 304-Satin_[2525976]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Glass Mirror - Bobrick_[2524192]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Paint - Bobrick - Black_[2524190]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Stainless Steel - Bobrick - Satin_[2524191]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Porcelain-Zurn-Vitreous-White_[2512979]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: SafetyRail - Powder Coat - Safety Yellow_[2616433]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel_[2226470]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Porcelain, Ivory_[2512199]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Laminate, Ivory, Matte_[2512201]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Steel, Polished_[2512200]
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Metal - Aluminum, Brushed_[2527952]_unsupported
+    remappedMaterial: {instanceID: 0}
+  - syncMaterialName: Stainless Steel-Bobrick-Typre 304-Satin_[2529315]
+    remappedMaterial: {instanceID: 0}

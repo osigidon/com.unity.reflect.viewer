@@ -27,7 +27,7 @@ namespace CivilFX.Generic2
             var fovProp = so.FindProperty("fov");
             EditorGUILayout.PropertyField(fovProp);
             using (new EditorGUI.DisabledGroupScope(!fovProp.boolValue)) {
-                EditorGUILayout.Slider(so.FindProperty("fovValue"), 10, 100);
+                EditorGUILayout.Slider(so.FindProperty("fovValue"), 15, 90);
             }
             so.ApplyModifiedProperties();
         }

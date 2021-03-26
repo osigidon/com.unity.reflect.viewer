@@ -1,4 +1,4 @@
-﻿using CivilFX.Generic2;
+using CivilFX.Generic2;
 using CivilFX.TrafficV5;
 using System.Collections;
 using System.Collections.Generic;
@@ -24,11 +24,27 @@ namespace CivilFX.UI2
 
         [Space()]
         [Header("Others Panel:")]
-        public Toggle trees;
+        public Toggle compassToggle;
+        GameObject compass;
+        private bool compassOff = false;
+
+        public Toggle groundToggle;
+        GameObject ground;
+        private bool groundOff = false;
+
+        CameraController camController;
+
+
+        void Start()
+        {
+            compass = GameObject.FindGameObjectWithTag("Compass");
+            ground = GameObject.FindGameObjectWithTag("Ground");
+        }
+
 
         private void Awake()
         {
-            var camController = GameManager.Instance.cameraController;
+            camController = GameManager.Instance.cameraController;
 
             /*
             * Camera
@@ -71,6 +87,40 @@ namespace CivilFX.UI2
                     resetTraffic.RestoreInternalState();
                 }              
             });
+
+
+            /*
+            * Others
+               */
+            compassToggle.onValueChanged.AddListener(delegate {
+                ToggleCompass();
+            });
+
+            groundToggle.onValueChanged.AddListener(delegate {
+                ToggleGround();
+            });
+        }
+
+        void Update()
+        {
+            if(fov.value != camController.cam.fieldOfView)
+                fov.value = camController.cam.fieldOfView;
+        }
+
+
+        void ToggleCompass()
+        {
+            compass.SetActive(compassOff);
+
+            compassOff = !compassOff;
+        }
+
+
+        void ToggleGround()
+        {
+            ground.SetActive(groundOff);
+
+            groundOff = !groundOff;
         }
     }
 }
