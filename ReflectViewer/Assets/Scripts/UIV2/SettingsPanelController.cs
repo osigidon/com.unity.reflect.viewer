@@ -28,10 +28,15 @@ namespace CivilFX.UI2
         GameObject compass;
         private bool compassOff = false;
 
+        public Toggle groundToggle;
+        GameObject ground;
+        private bool groundOff = false;
+
 
         void Start()
         {
             compass = GameObject.FindGameObjectWithTag("Compass");
+            ground = GameObject.FindGameObjectWithTag("Ground");
         }
 
 
@@ -88,6 +93,10 @@ namespace CivilFX.UI2
             compassToggle.onValueChanged.AddListener(delegate {
                 ToggleCompass();
             });
+
+            groundToggle.onValueChanged.AddListener(delegate {
+                ToggleGround();
+            });
         }
 
 
@@ -96,6 +105,14 @@ namespace CivilFX.UI2
             compass.SetActive(compassOff);
 
             compassOff = !compassOff;
+        }
+
+
+        void ToggleGround()
+        {
+            ground.SetActive(groundOff);
+
+            groundOff = !groundOff;
         }
     }
 }
