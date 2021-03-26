@@ -290,7 +290,9 @@ namespace CivilFX.UI2
                         //do nothing
                         return;
                     }
-                    GameManager.Instance.cameraController.HookView(staticCameras[currentIndex].gameObject.transform);
+                    GameManager.Instance.cameraController.HookView(staticCameras[currentIndex].gameObject.transform.position,
+                                                                   staticCameras[currentIndex].gameObject.transform.eulerAngles,
+                                                                   staticCameras[currentIndex].fovValue);
                     animatedCameraPanelController.gameObject.SetActive(false);
                     if (lastSelectedStillButton != null) {
                         lastSelectedStillButton.RestoreInternalState();

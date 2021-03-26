@@ -92,6 +92,11 @@ namespace CivilFX.Generic2
         // Update is called once per frame
         void Update()
         {
+            //Debug.Log(cameraTransform.position);
+            //Debug.Log(cameraTransform.eulerAngles);
+            Debug.Log(cam.fieldOfView);
+
+
             Vector3 oldPos;
 
             //RaycastHit hit;
@@ -360,6 +365,7 @@ namespace CivilFX.Generic2
             }
             cameraMoveRoutine = StartCoroutine(HookingViewRoutine(view));
         }
+
 
         public void HookView(Vector3 position, Vector3 angle, float fov)
         {
