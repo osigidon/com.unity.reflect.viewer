@@ -20905,9 +20905,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574a60a14d9da4f41ab6ca2222e94d64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useBoundingBox: 0
-  boxSize: {x: 728.0243, y: 339.7021, z: 837.40576}
-  boxCenter: {x: -28.404297, y: 112.35544, z: -1163.0989}
+  useBoundingBox: 1
+  boxSize: {x: 85.1, y: 17.34, z: 62}
+  boxCenter: {x: -16, y: 0, z: 2.5}
   notificationPanel: {fileID: 1412357405}
 --- !u!45 &9047304388555766269
 Skybox:
