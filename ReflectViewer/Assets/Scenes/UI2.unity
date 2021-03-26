@@ -8622,6 +8622,7 @@ Transform:
   - {fileID: 438102729}
   - {fileID: 464026288}
   - {fileID: 1100446432}
+  - {fileID: 1187664443}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11080,6 +11081,52 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1163431524}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1187664442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1187664443}
+  - component: {fileID: 1187664444}
+  m_Layer: 0
+  m_Name: Cam 22 (600A Encl. CB / KwHr Meter)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1187664443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187664442}
+  m_LocalRotation: {x: -0.11789617, y: -0.02413578, z: 0.023372719, w: -0.9924574}
+  m_LocalPosition: {x: 4.4, y: 3, z: -4.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 13.6, y: 2.5, z: 357.6}
+--- !u!114 &1187664444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187664442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 22
+  fov: 1
+  fovValue: 30
 --- !u!1001 &1188200354
 PrefabInstance:
   m_ObjectHideFlags: 0
