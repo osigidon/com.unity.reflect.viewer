@@ -32,6 +32,8 @@ namespace CivilFX.UI2
         GameObject ground;
         private bool groundOff = false;
 
+        CameraController camController;
+
 
         void Start()
         {
@@ -42,7 +44,7 @@ namespace CivilFX.UI2
 
         private void Awake()
         {
-            var camController = GameManager.Instance.cameraController;
+            camController = GameManager.Instance.cameraController;
 
             /*
             * Camera
@@ -97,6 +99,12 @@ namespace CivilFX.UI2
             groundToggle.onValueChanged.AddListener(delegate {
                 ToggleGround();
             });
+        }
+
+        void Update()
+        {
+            if(fov.value != camController.cam.fieldOfView)
+                fov.value = camController.cam.fieldOfView;
         }
 
 

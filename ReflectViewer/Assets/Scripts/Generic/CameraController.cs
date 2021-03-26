@@ -64,7 +64,7 @@ namespace CivilFX.Generic2
 
         //general variables     
         private bool isMouseOverUI;
-        private Camera cam;
+        public Camera cam;
         private Coroutine cameraMoveRoutine;
         private Transform cameraTransform;
         private Transform dummyTransform;
@@ -94,8 +94,7 @@ namespace CivilFX.Generic2
         {
             //Debug.Log(cameraTransform.position);
             //Debug.Log(cameraTransform.eulerAngles);
-            Debug.Log(cam.fieldOfView);
-
+            //Debug.Log(cam.fieldOfView);
 
             Vector3 oldPos;
 

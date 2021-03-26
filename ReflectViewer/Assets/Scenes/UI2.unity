@@ -8022,6 +8022,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816237120}
   m_CullTransparentMesh: 0
+--- !u!1 &823991262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 823991263}
+  m_Layer: 0
+  m_Name: CameraNodes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &823991263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823991262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791718722}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &857202030
 GameObject:
   m_ObjectHideFlags: 0
@@ -16050,6 +16081,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779391541}
   m_CullTransparentMesh: 0
+--- !u!1 &1791718721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791718722}
+  - component: {fileID: 1791718723}
+  m_Layer: 0
+  m_Name: Cam 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791718722
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791718721}
+  m_LocalRotation: {x: 0.022378962, y: 0.5185955, z: -0.013579888, w: 0.8546189}
+  m_LocalPosition: {x: -35.5, y: 6.1, z: -10.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 823991263}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3, y: 62.5, z: 0}
+--- !u!114 &1791718723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791718721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd27339976cd04db0a005b52720abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
+  fov: 1
+  fovValue: 75
 --- !u!1 &1802508000
 GameObject:
   m_ObjectHideFlags: 0
@@ -20682,7 +20759,7 @@ PrefabInstance:
     - target: {fileID: 2523545788753206582, guid: 1a75b0ce7bf91ab4aa22e5ccfee22145,
         type: 3}
       propertyPath: m_Value
-      value: 45
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 2523545788753206582, guid: 1a75b0ce7bf91ab4aa22e5ccfee22145,
         type: 3}
@@ -21145,6 +21222,7 @@ MonoBehaviour:
   useBoundingBox: 1
   boxSize: {x: 85.1, y: 17.34, z: 62}
   boxCenter: {x: -16, y: 0, z: 2.5}
+  cam: {fileID: 0}
   notificationPanel: {fileID: 1412357405}
 --- !u!45 &9047304388555766269
 Skybox:
