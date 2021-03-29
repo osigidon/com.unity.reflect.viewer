@@ -12450,7 +12450,7 @@ PrefabInstance:
     - target: {fileID: 2601893360925017082, guid: ca956263b5939554aaf56aa35116faa4,
         type: 3}
       propertyPath: m_Name
-      value: Ground
+      value: Ground Transparency
       objectReference: {fileID: 0}
     - target: {fileID: 6889837424360420844, guid: ca956263b5939554aaf56aa35116faa4,
         type: 3}
@@ -12560,22 +12560,22 @@ PrefabInstance:
     - target: {fileID: 8140891914900081405, guid: ca956263b5939554aaf56aa35116faa4,
         type: 3}
       propertyPath: m_text
-      value: Ground
+      value: Ground Transparency
       objectReference: {fileID: 0}
     - target: {fileID: 8140891914900081405, guid: ca956263b5939554aaf56aa35116faa4,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 6
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8140891914900081405, guid: ca956263b5939554aaf56aa35116faa4,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8140891914900081405, guid: ca956263b5939554aaf56aa35116faa4,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8140891914900081405, guid: ca956263b5939554aaf56aa35116faa4,
         type: 3}

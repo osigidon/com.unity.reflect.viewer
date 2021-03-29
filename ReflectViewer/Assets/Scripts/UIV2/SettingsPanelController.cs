@@ -118,7 +118,23 @@ namespace CivilFX.UI2
 
         void ToggleGround()
         {
-            ground.SetActive(groundOff);
+            // Material Swap
+            var referencedObjs = new List<MaterialsSwapper>();
+
+            foreach (var item in Resources.FindObjectsOfTypeAll<MaterialsSwapper>())
+            {
+                if (item.referencedName.Equals("Ground"))
+                {
+                    referencedObjs.Add(item);
+                    groundOff = item.isShowingTemp;
+
+                }
+            }
+
+            foreach (var item in referencedObjs)
+            {
+                groundOff = item.SwapMaterial();
+            }
 
             groundOff = !groundOff;
         }
