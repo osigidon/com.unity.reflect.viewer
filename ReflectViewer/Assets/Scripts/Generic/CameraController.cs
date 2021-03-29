@@ -87,8 +87,6 @@ namespace CivilFX.Generic2
         }
 
 
-
-
         // Update is called once per frame
         void Update()
         {
@@ -145,6 +143,7 @@ namespace CivilFX.Generic2
             //    cameraTransform.position = oldPos;
             //}
         }
+
 
         private void ProcessMouseInput()
         {
