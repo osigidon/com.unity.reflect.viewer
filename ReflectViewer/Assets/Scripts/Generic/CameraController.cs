@@ -87,8 +87,6 @@ namespace CivilFX.Generic2
         }
 
 
-
-
         // Update is called once per frame
         void Update()
         {
@@ -145,6 +143,7 @@ namespace CivilFX.Generic2
             //    cameraTransform.position = oldPos;
             //}
         }
+
 
         private void ProcessMouseInput()
         {
@@ -219,15 +218,23 @@ namespace CivilFX.Generic2
             Vector3 pinch = Vector3.zero;
             if (scrollValue > 0) {
                 //scroll up
-                pinch = cameraTransform.forward;
+                //pinch = cameraTransform.forward;
+
+                // Decrease FOV
+                if(cam.fieldOfView > 15)
+                    cam.fieldOfView = cam.fieldOfView - 5;
             } else if (scrollValue < 0) {
                 //scroll down
-                pinch = -cameraTransform.forward;
+                //pinch = -cameraTransform.forward;
+
+                // Increase FOV
+                if (cam.fieldOfView < 90)
+                    cam.fieldOfView = cam.fieldOfView + 5;
             }
-            if (pinch.magnitude > 0.01f) {
-                UnHookView(true);
-                cameraTransform.Translate(pinch, Space.World);
-            }
+            //if (pinch.magnitude > 0.01f) {
+            //    UnhookView(true);
+            //    cameraTransform.Translate(pinch, Space.world);
+            //}
         }
         private void ProcessKeyboardInput()
         {
