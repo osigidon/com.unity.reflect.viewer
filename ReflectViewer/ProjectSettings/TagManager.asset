@@ -12,6 +12,7 @@ TagManager:
   - Lights
   - Ground
   - Wall
+  - ClearanceZone
   layers:
   - Default
   - TransparentFX

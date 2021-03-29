@@ -28,6 +28,10 @@ namespace CivilFX.UI2
         GameObject compass;
         private bool compassOff = false;
 
+        public Toggle zonesToggle;
+        GameObject[] clearanceZones;
+        private bool zonesOff = true;
+
         public Toggle wallsToggle;
         //GameObject walls;
         private bool wallsOff = false;
@@ -43,6 +47,7 @@ namespace CivilFX.UI2
         {
             compass = GameObject.FindGameObjectWithTag("Compass");
             //ground = GameObject.FindGameObjectWithTag("Ground");
+            clearanceZones = GameObject.FindGameObjectsWithTag("ClearanceZone");
         }
 
 
@@ -100,13 +105,18 @@ namespace CivilFX.UI2
                 ToggleCompass();
             });
 
-            groundToggle.onValueChanged.AddListener(delegate {
-                ToggleGround();
+            zonesToggle.onValueChanged.AddListener(delegate {
+                ToggleClearanceZones();
             });
 
             wallsToggle.onValueChanged.AddListener(delegate {
                 ToggleWalls();
             });
+
+            groundToggle.onValueChanged.AddListener(delegate {
+                ToggleGround();
+            });
+
         }
 
         void Update()
@@ -121,6 +131,15 @@ namespace CivilFX.UI2
             compass.SetActive(compassOff);
 
             compassOff = !compassOff;
+        }
+
+
+        void ToggleClearanceZones()
+        {
+            foreach (var clearanceZone in clearanceZones)
+                clearanceZone.gameObject.GetComponent<Renderer>().enabled = zonesOff;
+
+            zonesOff = !zonesOff;
         }
 
 
