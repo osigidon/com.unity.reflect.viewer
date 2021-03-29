@@ -28,8 +28,12 @@ namespace CivilFX.UI2
         GameObject compass;
         private bool compassOff = false;
 
+        public Toggle wallsToggle;
+        //GameObject walls;
+        private bool wallsOff = false;
+
         public Toggle groundToggle;
-        GameObject ground;
+        //GameObject ground;
         private bool groundOff = false;
 
         CameraController camController;
@@ -38,7 +42,7 @@ namespace CivilFX.UI2
         void Start()
         {
             compass = GameObject.FindGameObjectWithTag("Compass");
-            ground = GameObject.FindGameObjectWithTag("Ground");
+            //ground = GameObject.FindGameObjectWithTag("Ground");
         }
 
 
@@ -99,6 +103,10 @@ namespace CivilFX.UI2
             groundToggle.onValueChanged.AddListener(delegate {
                 ToggleGround();
             });
+
+            wallsToggle.onValueChanged.AddListener(delegate {
+                ToggleWalls();
+            });
         }
 
         void Update()
@@ -113,6 +121,30 @@ namespace CivilFX.UI2
             compass.SetActive(compassOff);
 
             compassOff = !compassOff;
+        }
+
+
+        void ToggleWalls()
+        {
+            // Material Swap
+            var referencedObjs = new List<MaterialsSwapper>();
+
+            foreach (var item in Resources.FindObjectsOfTypeAll<MaterialsSwapper>())
+            {
+                if (item.referencedName.Equals("Wall"))
+                {
+                    referencedObjs.Add(item);
+                    groundOff = item.isShowingTemp;
+
+                }
+            }
+
+            foreach (var item in referencedObjs)
+            {
+                groundOff = item.SwapMaterial();
+            }
+
+            wallsOff = !wallsOff;
         }
 
 
